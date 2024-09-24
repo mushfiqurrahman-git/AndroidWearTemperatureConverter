@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Android Wear Temperature Converter</string>
+    <string name="title">Convert Now</string>
 </resources>
