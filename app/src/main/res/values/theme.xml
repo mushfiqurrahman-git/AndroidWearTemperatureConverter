@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.Android_Wear_Temperature_Converter" parent="Theme.Material3.DayNight.NoActionBar"></style>
+    <style name="Theme.Android_Wear_Temperature_Converter" parent="Base.Theme.Android_Wear_Temperature_Converter"></style>
+</resources>
