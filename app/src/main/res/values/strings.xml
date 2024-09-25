@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">Android Wear Temperature Converter</string>
-    <string name="title">Convert Now</string>
+    <string name="title">Convert</string>
     <string name="hint">Enter</string>
-    <string name="celsius">C</string>
-    <string name="fahrenheit">F</string>
+    <string name="celsius">C°</string>
+    <string name="celsiusC">C</string>
+    <string name="fahrenheit">F°</string>
+    <string name="fahrenheitF">F</string>
     <string name="result">Result</string>
+    <string name="converted">Converted Temperature</string>
 </resources>
