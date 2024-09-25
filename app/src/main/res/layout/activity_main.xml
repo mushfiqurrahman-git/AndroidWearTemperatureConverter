@@ -27,8 +27,7 @@
             android:layout_marginTop="38dp"
             android:layout_marginEnd="5dp"
             android:layout_marginBottom="22dp"
-            android:background="@color/cardview_dark_background"
-            android:text="TextView"
+            android:background="@drawable/rounded_corner_view"
             app:layout_constraintBottom_toTopOf="@+id/textView20"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -51,8 +50,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="2dp"
             android:layout_marginEnd="6dp"
+            android:background="@drawable/input_corner"
             android:hint="@string/hint"
-            android:background="@color/cardview_light_background"
             android:inputType="number"
             app:layout_constraintEnd_toStartOf="@+id/button7"
             app:layout_constraintStart_toStartOf="parent"
@@ -75,19 +74,29 @@
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginEnd="6dp"
-            android:textSize="9dp"
             android:text="F"
+            android:textSize="9dp"
             app:layout_constraintBaseline_toBaselineOf="@+id/button7"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/button7" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="173dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="11dp"
+            android:background="@drawable/rounded_corner_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
         <TextView
             android:id="@+id/textView20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:textColor="@color/cardview_light_background"
             android:text="Converted Temperature"
+            android:textColor="@color/cardview_light_background"
             app:layout_constraintBottom_toTopOf="@+id/textView21"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -98,12 +107,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="33dp"
+            android:background="@drawable/input_corner"
             android:hint="@string/result"
-            android:background="@color/cardview_light_background"
             android:textColorHint="#BFB1B1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@+id/textView20"
             app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.wear.widget.BoxInsetLayout>
